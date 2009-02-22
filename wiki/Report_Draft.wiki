@@ -1,7 +1,7 @@
 #summary [Text-Only] Report draft
 
 
-= [[Text-Only]] Captchacker Project - Report Draft =
+= {Text-Only} Captchacker Project - Report Draft =
 
 
 == Abstract ==
@@ -30,8 +30,16 @@ Firstly, we studied captchas from Egoshare.com, that can easily be segmented (by
 
 == State of the Art ==
 
+
+
+
 == Methodology used ==
 
+We decided to focus on the study of SVM based methods.
+
+We decided not to use neural networks because of:
+  * their relative opacity
+  * the long time needed
 
 
 
@@ -39,12 +47,38 @@ Firstly, we studied captchas from Egoshare.com, that can easily be segmented (by
 
 Our source files are freely available on our Google Code Project Home Page (http://code.google.com/p/captchacker).
 
+SVM code parts are based on libsvm(ref).
+
+Image processing parts are based on OpenCV(ref).
+
+We used Python to create all our scripts, which call these libs, or small programs we wrote in C++.
+
+Here are the required libs to run our scripts: libsvm, shutil, ...
+
+Our programs have been tested on WinXP SP2 and Ubuntu 8.04.
+
+
+
+=== Step 1: Getting Captchas ===
+
+=== Step 2: Generating databases ====
+
+  * Captcha-based db
+  * Simulation-based db
+
+=== Step 3: Building SVM Model ===
+
+=== Step 4: Testing Model perf ===
+
+
 
 == Perspectives ==
+
+Harder visual captchas...
+
+New kind of captchas: animated, etc (more difficult, but can be too hard for some people...)
 
 
 == References ==
 
 Only on the pdf version. - will be available soon.
-
-
