@@ -1,11 +1,11 @@
 = Base de données de caractères simulés =
 _les chiffres en sortie du préprocessing du captcha original sont centrées dans un carré 20x20, ce qui n'est pas le cas des caractères de la base d'entrainement_
-  * *PYTHON* Générer les caractères dans une image plus grande (par exemple 30x30)
-  * *C++*    Cropper toutes les images générées en 20x20 pour centrer le caractère
+  * [OK] *PYTHON* Générer les caractères dans une image plus grande (par exemple 30x30)
+  * [OK] *C++*    Cropper toutes les images générées en 20x20 pour centrer le caractère
 
   * Faire un graphique avec GNUplot représentant les isosurfaces de performances
   * Faire une validation croisée
 
 
 = Base de données de caractères obtenus à partir de captchas =
-  * Enrichir la base de captchas labellés en labellant automatiquement par un bon modèle, puis en corrigeant les mauvais à la main
+  * [OK] Enrichir la base de captchas labellés en labellant automatiquement par un bon modèle, puis en corrigeant les mauvais à la main
