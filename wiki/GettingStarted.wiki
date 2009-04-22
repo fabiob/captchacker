@@ -6,7 +6,7 @@
 == Simple test: Egoshare GUI == 
 As we have already downloaded some captchas, and build some SVM models, you can simply run the program:
 
-   * Egoshare`_`4`_`GUI.py
+   * `Egoshare_4_GUI.py`
 
 Once you have launched the GUI, you should something similar to this:
 
@@ -23,25 +23,25 @@ Here is what you need to be able to do this test:
 
 == How to get captchas and train models myself ? ==
 
-To continue with the Egoshare example, if you want to do the whole stuff yourself, it is fairly simple. Indeed, all you have to do is running the files Egoshare`_`n`_*`.py, namely:
+To continue with the Egoshare example, if you want to do the whole stuff yourself, it is fairly simple. Indeed, all you have to do is running the files `Egoshare_n_*.py`, namely:
 
-  * Egoshare`_`1`_`GetCaptchas`.`py
-  * Egoshare`_`1`_`bis`_`GetLabelledCaptchas.py
-  * Egoshare`_`2`_`GenerateDB.py
-  * Egoshare`_`3`_`TrainTestSVM.py
-  * Egoshare`_`4`_`GUI.py
-  * Egoshare`_`5`_`TestPerf.py
+  * `Egoshare_1_GetCaptchas.py`
+  * `Egoshare_1_bis_GetLabelledCaptchas.py`
+  * `Egoshare_2_GenerateDB.py`
+  * `Egoshare_3_TrainTestSVM.py`
+  * `Egoshare_4_GUI.py`
+  * `Egoshare_5_TestPerf.py`
 
 == What about other captchas? ==
 
-The principle remain the same, for Hotmail, you have to run the Hotmail`_`n`_*`.py files: 
-  * Hotmail`_`1`_`GetCaptchas.py
-  * Hotmail`_`2`_`GenerateDB.py
-  * Hotmail`_`3`_`TrainTestSVM.py
-  * Hotmail`_`4`_`GUI.py
-  * Hotmail`_`5`_`ComputeScores.py
+The principle remain the same, for Hotmail, you have to run the `Hotmail_n_*.py` files: 
+  * `Hotmail_1_GetCaptchas.py`
+  * `Hotmail_2_GenerateDB.py`
+  * `Hotmail_3_TrainTestSVM.py`
+  * `Hotmail_4_GUI.py`
+  * `Hotmail_5_ComputeScores.py`
 
-Once more, you can just run Hotmail`_`4`_`GUI.py if you want to do a simple test.
+Once more, you can just run `Hotmail_4_GUI.py` if you want to do a simple test.
 
 == And what if I want/need to recompile the C++ sources? ==
 
