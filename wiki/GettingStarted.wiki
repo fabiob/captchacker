@@ -50,4 +50,4 @@ The C++ sources have been compiled on Windows and Ubuntu, on i386 32bits archite
 Most users do *not* have to do this, however if you need/want to recompile these sources, here is what you need:
 
   * A C++ compiler
-  * the C++ OpenCV library (do not forget the link options to be able to compile).
+  * the C++ [http://sourceforge.net/projects/opencvlibrary/ OpenCV library] (do not forget the link options to be able to compile).
