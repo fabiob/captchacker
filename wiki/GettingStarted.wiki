@@ -25,7 +25,7 @@ Here is what you need to be able to do this test:
 
 To continue with the Egoshare example, if you want to do the whole stuff yourself, it is fairly simple. Indeed, all you have to do is running the files Egoshare`_`n`_*`.py, namely:
 
-  * Egoshare`_`1`_`GetCaptchas.py
+  * Egoshare`_`1`_`GetCaptchas`.`py
   * Egoshare`_`1`_`bis`_`GetLabelledCaptchas.py
   * Egoshare`_`2`_`GenerateDB.py
   * Egoshare`_`3`_`TrainTestSVM.py
