@@ -17,7 +17,7 @@ You select a captcha, a model, and see if it breaks the captcha.
 === Requirements ===
 
 Here is what you need to be able to do this test:
-  * A python interpreter
+  * Python 2.5+
   * [http://www.pythonware.com/products/pil/ PIL (Python Image Library)] installed
   * OpenCV
   * [http://www.csie.ntu.edu.tw/~cjlin/libsvm/ LibSVM] Python wrapper (not tested with latest version)
