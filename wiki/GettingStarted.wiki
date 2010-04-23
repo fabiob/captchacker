@@ -19,6 +19,10 @@ You select a captcha, a model, and see if it breaks the captcha.
 Here is what you need to be able to do this test:
   * A python interpreter
   * [http://www.pythonware.com/products/pil/ PIL (Python Image Library)] installed
+  * OpenCV
+  * LibSVM Python wrapper (not tested with latest version)
+If this line "model = svm_model(chemin)", try replacing it with "model = svm_load_model(chemin)
+"
 
 
 == How to get captchas and train models myself ? ==
