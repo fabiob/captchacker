@@ -21,8 +21,7 @@ Here is what you need to be able to do this test:
   * [http://www.pythonware.com/products/pil/ PIL (Python Image Library)] installed
   * OpenCV 1 (make sure the dlls path is in your environment variable path)
   * [http://www.csie.ntu.edu.tw/~cjlin/libsvm/ LibSVM] Python wrapper (not tested with latest version)
-If this line "model = svm_model(chemin)", try replacing it with "model = svm_load_model(chemin)
-"
+If the line "model = svm_model(chemin)" fails, try replacing it with "model = svm_load_model(chemin)"
 
 
 == How to get captchas and train models myself ? ==
