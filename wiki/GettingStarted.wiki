@@ -20,7 +20,7 @@ Here is what you need to be able to do this test:
   * A python interpreter
   * [http://www.pythonware.com/products/pil/ PIL (Python Image Library)] installed
   * OpenCV
-  * LibSVM Python wrapper (not tested with latest version)
+  * [http://www.csie.ntu.edu.tw/~cjlin/libsvm/ LibSVM] Python wrapper (not tested with latest version)
 If this line "model = svm_model(chemin)", try replacing it with "model = svm_load_model(chemin)
 "
 
