@@ -8,7 +8,7 @@ As we have already downloaded some captchas, and build some SVM models, you can 
 
    * `Egoshare_4_GUI.py`
 
-Once you have launched the GUI, you should something similar to this:
+Once you have launched the GUI, you should see something similar to this:
 
 http://captchacker.googlecode.com/files/GUI%20Screenshot.JPG
 
