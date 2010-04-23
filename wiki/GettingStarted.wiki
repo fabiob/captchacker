@@ -19,7 +19,7 @@ You select a captcha, a model, and see if it breaks the captcha.
 Here is what you need to be able to do this test:
   * Python 2.5+
   * [http://www.pythonware.com/products/pil/ PIL (Python Image Library)] installed
-  * OpenCV
+  * OpenCV 1 (make sure the dlls path is in your environment variable path)
   * [http://www.csie.ntu.edu.tw/~cjlin/libsvm/ LibSVM] Python wrapper (not tested with latest version)
 If this line "model = svm_model(chemin)", try replacing it with "model = svm_load_model(chemin)
 "
@@ -54,4 +54,4 @@ The C++ sources have been compiled on Windows and Ubuntu, on i386 32bits archite
 Most users do *not* have to do this, however if you need/want to recompile these sources, here is what you need:
 
   * A C++ compiler
-  * the C++ [http://sourceforge.net/projects/opencvlibrary/ OpenCV library] (do not forget the link options to be able to compile).
+  * the C++ [http://sourceforge.net/projects/opencvlibrary/ OpenCV1 library] (do not forget the link options to be able to compile).
